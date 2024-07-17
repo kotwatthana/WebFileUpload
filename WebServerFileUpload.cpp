@@ -6,7 +6,7 @@ WebServerFileUpload::WebServerFileUpload() {
 }
 
 void handleRoot(AsyncWebServerRequest *request) {
-  request->send_P(200, "text/html", reinterpret_cast<const char*>(FILEUP_HTML));
+  request->send_P(200, "text/html", reinterpret_cast<const char*>(ELLC_HTML));
 }
 
 void WebServerFileUpload::begin(AsyncWebServer &server) {
